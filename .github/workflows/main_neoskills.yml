@@ -53,7 +53,7 @@ jobs:
         with:
           name: php-app
       
-      - name: Login to Azure
+      - name: Azure Login
         uses: azure/login@v3.0.0
         with:
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_0AC2AD38F12E4848A66C7AD94318920B }}
